@@ -1,0 +1,4 @@
+interface IListener {
+    notify():void
+}
+
