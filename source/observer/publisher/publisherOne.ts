@@ -32,5 +32,5 @@ class PublisherOne implements IPublisher {
 }
 
 
-export {Publisher}
+export {PublisherOne}
 
