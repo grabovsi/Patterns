@@ -1,6 +1,6 @@
 class ListenerTypeTwo implements IListener {
     notify(): void {
-        throw new Error("Method not implemented.");
+        return console.log('Listener: Listener type two was notified')
     }
 
 }
