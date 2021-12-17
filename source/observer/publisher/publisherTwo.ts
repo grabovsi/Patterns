@@ -1,4 +1,7 @@
-class Publisher implements IPublisher {
+import { IListener } from "../listener/iListener";
+import { IPublisher } from "./iPublisher";
+
+class PublisherTwo implements IPublisher {
 
     listeners : Array<IListener> = new Array()
 
@@ -27,4 +30,7 @@ class Publisher implements IPublisher {
     }
 
 }
+
+
+export {Publisher}
 
